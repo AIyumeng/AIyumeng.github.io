@@ -25,13 +25,13 @@ description: >- # used by seo meta and the atom feed
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: ""
 
-github:
-  username: AIyumeng # change to your GitHub username
-
-zhihu:
-  username: yumeng
+#github:
+  #username: AIyumeng # change to your GitHub username
+#zhihu:
+  #username: yumeng
 # twitter:
   #  username: twitter_username # change to your Twitter username
+  # 这里应该是作者，统一在_data/authors.yml定义了
 
 social:
   # Change to your full name.
@@ -101,7 +101,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -227,3 +227,23 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+    
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      layout: post
+      author: dym  
+      tags: []
+      categories: []
+      description: "这是草稿的描述"
+    posts:
+      layout: post
+      author: dym
+      tags: []
+      categories: []
+      description: "这是文章的描述"
+    pages:
+      layout: page
+      author: dym 
+      description: "这是页面的描述"
+
