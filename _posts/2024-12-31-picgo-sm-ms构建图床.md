@@ -29,7 +29,7 @@ releases 下载最新版
 
 ## 配置 Picgo
 
-在如图区域填入 Token，Token 来源见 [配置 SM.MS](#配置smms)
+在如图区域填入 Token，Token 来源见 [配置 SM.MS](#配置-smms)
 
 <img src="https://s2.loli.net/2024/12/30/gaRdUznLomWiq9C.png" alt="img" style="zoom:33%;" />
 
@@ -41,7 +41,7 @@ releases 下载最新版
 
 ## 配置 SM.MS
 
-[SM.MS](http://sm.ms/) 是一个免费和收费的图片储存及分享服务 (Image Hosting、图床)。
+[SM.MS](https://sm.ms/) 是一个免费和收费的图片储存及分享服务 (Image Hosting、图床)。
 
 ![img](https://s2.loli.net/2024/12/30/x2sJgTyakjLA6zh.png)
 
